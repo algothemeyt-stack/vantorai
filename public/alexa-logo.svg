@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 90" fill="none">
+  <defs>
+    <linearGradient id="alexaSwooshGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="45%" stop-color="#4F46E5" />
+      <stop offset="85%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#9333EA" />
+    </linearGradient>
+    <linearGradient id="alexaStarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#6366F1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Letter A with Swoosh and Star -->
+  <!-- Left leg -->
+  <path d="M 38 12 L 12 82 L 26 82 L 35 58 L 46 30 Z" fill="#111827" />
+  <!-- Right leg -->
+  <path d="M 38 12 L 46 30 L 61 65 L 71 82 L 57 82 L 48 62 Z" fill="#111827" />
+  <!-- Apex top join -->
+  <path d="M 34 13 Q 40 9 44 13 L 47 22 L 33 22 Z" fill="#111827" />
+
+  <!-- Dynamic Curved Swoosh through A -->
+  <path 
+    d="M 3 78 C 10 64 24 56 42 53 C 60 49 76 41 85 28 C 87 32 83 39 73 47 C 58 57 38 65 22 72 C 13 76 6 78 3 78 Z" 
+    fill="url(#alexaSwooshGrad)" 
+  />
+
+  <!-- 4-point Sparkle Star under Swoosh -->
+  <path 
+    d="M 33 64 Q 33 73 24 73 Q 33 73 33 82 Q 33 73 42 73 Q 33 73 33 64 Z" 
+    fill="url(#alexaStarGrad)" 
+  />
+
+  <!-- Letter l -->
+  <rect x="89" y="14" width="13" height="68" rx="3" fill="#111827" />
+
+  <!-- Letter e -->
+  <path 
+    fill-rule="evenodd" 
+    clip-rule="evenodd" 
+    d="M 143 30 C 126 30 114 42 114 57 C 114 73 126 84 144 84 C 157 84 167 77 171 67 L 158 64 C 155 70 149 73 143 73 C 133 73 127 66 127 57 L 172 57 C 172 56 172 54 172 53 C 172 40 160 30 143 30 Z M 127 48 C 129 42 135 39 143 39 C 151 39 158 42 159 48 L 127 48 Z" 
+    fill="#111827" 
+  />
+
+  <!-- Letter x -->
+  <path 
+    d="M 183 32 L 198 32 L 209 53 L 221 32 L 236 32 L 217 57 L 237 82 L 222 82 L 209 61 L 196 82 L 181 82 L 201 57 Z" 
+    fill="#111827" 
+  />
+
+  <!-- Letter a -->
+  <path 
+    fill-rule="evenodd" 
+    clip-rule="evenodd" 
+    d="M 268 30 C 253 30 242 41 242 57 C 242 73 253 84 268 84 C 276 84 282 80 286 75 L 286 82 L 298 82 L 298 32 L 286 32 L 286 39 C 282 34 276 30 268 30 Z M 270 41 C 261 41 254 48 254 57 C 254 66 261 73 270 73 C 279 73 286 66 286 57 C 286 48 279 41 270 41 Z" 
+    fill="#111827" 
+  />
+</svg>

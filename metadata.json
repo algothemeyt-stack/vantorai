@@ -1,0 +1,7 @@
+{
+  "name": "Alexa Ai",
+  "description": "Premium AI Subscription Store. Shop Claude, ChatGPT, Higgsfield, and Gemini subscriptions at simple, transparent prices with instant email delivery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
